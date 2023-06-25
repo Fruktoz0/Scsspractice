@@ -1,0 +1,43 @@
+.btn {
+    border-radius: 15px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    &:hover{
+        transition: ease-in-out 0.3s;
+    }
+}
+
+.pinky {
+    @extend .btn;
+    background-color: $buttoncolor;
+    padding: 10px 35px;
+    color: $buttontextcolor;
+    &:hover {
+        color: $buttoncolor;
+        background-color: $buttontextcolor;
+    }
+}
+
+.navButton {
+    @extend .btn;
+    font-weight: 600;
+    padding: 8px 35px;
+    background-color: $navbuttoncolor;
+    &:hover {
+        background-color: $navhoverbackground;
+        color: $navhovercolor;
+    }
+}
+
+.buttonHeader {
+    @extend .btn;
+    margin-left: 40px;
+    background-color: $buttoncolor;
+    padding: 10px 35px;
+    color: $buttontextcolor;
+    &:hover {
+        color: $buttoncolor;
+        background-color: $buttontextcolor;
+    }
+}

@@ -1,0 +1,54 @@
+footer{
+    display: flex;
+    margin-top: 250px;
+    color: $footercolor;
+    height: 50vh;
+    width: 100%;
+    background-color: $footerbackgroundcolor;
+
+    .footerAll{
+        display: flex;
+        margin-top: 100px;
+        img{
+            width: 150px;
+            filter:contrast(1);
+            -webkit-filter:brightness(1000)
+        }
+        .social{
+            margin-left: 50px;
+            width: 300px;
+            p{
+                margin-top: 20px;
+                img{
+                    width: 8px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .aboutUs{
+            margin-top: 30px;
+            p{
+                margin: 10px 50px;
+                
+            }
+        }
+        .aboutUs1{
+            margin-top: 30px;
+            p{
+                margin: 10px 50px;
+            }
+        }
+        .socialIcons{
+            display: flex;
+            margin-top: 40px;
+            margin-left: 100px;
+            i{
+                margin-left: 7px;
+            } 
+        }
+        .copyright{
+            margin-top: 200px;
+        }
+    }   
+}
+@include footer_mobile();
